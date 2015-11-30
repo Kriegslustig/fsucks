@@ -1,0 +1,10 @@
+{
+  "name": "fsucks",
+  "description": "All SFTP clients suck. This one simply does the job.",
+  "license": "MIT",
+  "dependencies": {
+    "rsync": "latest",
+    "promise": "latest"
+  }
+}
+
