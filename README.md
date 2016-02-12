@@ -2,11 +2,12 @@
 
 Because all sftp clients kinda suck. #marketing
 
-## TODO
+```vimL
+map <leader>u :call Fsucks()<cr>
+fu! Fsucks ()
+  w!
+  execute("!~/Software/nodejs/fsucks/index.js put ".bufname(''))
+endfunction
 
-* integration of rsync
-* config finder
-* get
-* put
-
+```
 
